@@ -1,6 +1,6 @@
 // Backend endpoint:  GET /api/subjects/:id  ->  { subject, questions }
-// The quiz file name is derived from the subject's name (lowercased):
-// { id: "sub1", name: "Anatomy" } -> data/anatomy.json
+// The quiz file is named after the subject's name. Cloudflare is
+// case-sensitive, so we try the name exactly as written AND lowercased.
 export async function onRequestGet(context) {
   const { request, env, params } = context;
   const origin = new URL(request.url).origin;
@@ -15,16 +15,18 @@ export async function onRequestGet(context) {
     return Response.json({ error: "Subject not found." }, { status: 404 });
   }
 
-  const fileName = `${subject.name.toLowerCase()}.json`;
-  // Guard against path traversal via a crafted subject name.
-  if (/[\\/]|\.\./.test(fileName)) {
-    return Response.json({ error: "Invalid subject file name." }, { status: 400 });
+  const candidates = [`${subject.name}.json`, `${subject.name.toLowerCase()}.json`];
+  for (const fileName of candidates) {
+    if (/[\\/]|\.\./.test(fileName)) continue; // path-traversal guard
+    const quizRes = await env.ASSETS.fetch(`${origin}/data/${fileName}`);
+    if (quizRes.ok) {
+      try {
+        const questions = await quizRes.json();
+        return Response.json({ subject, questions });
+      } catch {
+        /* not JSON, try next candidate */
+      }
+    }
   }
-
-  const quizRes = await env.ASSETS.fetch(`${origin}/data/${fileName}`);
-  if (!quizRes.ok) {
-    return Response.json({ error: "Could not load quiz." }, { status: 500 });
-  }
-  const questions = await quizRes.json();
-  return Response.json({ subject, questions });
+  return Response.json({ error: "Could not load quiz." }, { status: 500 });
 }
