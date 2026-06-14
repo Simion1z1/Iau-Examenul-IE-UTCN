@@ -251,7 +251,7 @@
   },
   {
     "question": "Care dintre următoarele nu este un domeniu de aplicare al sistemelor embedded?",
-    "correct_answer": "Industria petrochimică Industria alimentară",
+    "correct_answer": "Industria alimentară",
     "wrong_answers": [
       "Industria auto",
       "Industria telecomunicațiilor",
