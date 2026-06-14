@@ -269,9 +269,9 @@
   },
   {
     "question": "Ce caracteristică specifică are arhitectura Harvard?",
-    "correct_answer": "Permite realizarea de operații simultane de adresare și preluare din memorie",
+    "correct_answer": "Are două magistrale independente pentru adrese și date",
     "wrong_answers": [
-      "Are două magistrale independente pentru adrese și date",
+      "Permite realizarea de operații simultane de adresare și preluare din memorie",
       "Folosește un singur cip pentru integrarea modulelor de interfațare",
       "Permite realizarea de strategii de control complexe în sistemele embedded"
     ]
@@ -648,9 +648,9 @@
   },
   {
     "question": "Calculați ieșirea digitală (D7-D0) pentru o valoare de intrare analogică de 0,68V, pentru un CAD de 8 biți cu Vref 2.55V:",
-    "correct_answer": "01101000",
+    "correct_answer": "1000100",
     "wrong_answers": [
-      "1000100",
+      "01101000",
       "10"
     ]
   },

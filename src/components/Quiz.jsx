@@ -25,13 +25,14 @@ export default function Quiz({ subject, onBack }) {
   useEffect(() => {
     getQuiz(subject)
       .then((data) => {
-        setQuestions(data.questions || []);
+        // Shuffle the question order so it differs every time.
+        setQuestions(shuffle(data.questions || []));
         setStatus("ready");
       })
       .catch(() => setStatus("error"));
   }, [subject]);
 
-  // Re-shuffle options whenever the current question changes.
+  // Re-shuffle the options whenever the current question changes.
   useEffect(() => {
     if (!current) return;
     setOptions(shuffle([current.correct_answer, ...current.wrong_answers]));
@@ -53,13 +54,12 @@ export default function Quiz({ subject, onBack }) {
   }
 
   function restart() {
+    // Re-shuffle the questions for a fresh random order on every retry.
+    setQuestions((qs) => shuffle(qs));
     setIndex(0);
     setScore(0);
     setSelected(null);
     setFinished(false);
-    if (questions[0]) {
-      setOptions(shuffle([questions[0].correct_answer, ...questions[0].wrong_answers]));
-    }
   }
 
   function classFor(option) {
