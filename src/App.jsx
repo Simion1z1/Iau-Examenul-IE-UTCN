@@ -34,7 +34,7 @@ export default function App() {
 
       <header className="app-header">
         <h1 className="brand" onClick={() => setActiveSubject(null)}>
-          <span className="brand-mark">🎓</span> Quiz Trainer
+          <span className="brand-mark">🎓</span> Treci sau pici? Află!
         </h1>
         <button
           className="theme-toggle"
