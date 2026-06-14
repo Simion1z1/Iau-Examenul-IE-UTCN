@@ -14,18 +14,33 @@ export default function Dashboard({ onSelect }) {
       .catch(() => setStatus("error"));
   }, []);
 
-  if (status === "loading") return <p className="info">Loading subjects…</p>;
+  if (status === "loading")
+    return <div className="info glass">Loading subjects…</div>;
   if (status === "error")
-    return <p className="info error">Could not load subjects. Is the backend running?</p>;
+    return (
+      <div className="info glass error">
+        Could not load subjects. Is the backend running?
+      </div>
+    );
 
   return (
-    <section>
+    <section className="dash">
       <h2 className="section-title">Choose a subject</h2>
+      <p className="section-sub">Tap a card to start practising.</p>
+
       <div className="subject-grid">
-        {subjects.map((s) => (
-          <button key={s.id} className="subject-card" onClick={() => onSelect(s)}>
+        {subjects.map((s, i) => (
+          <button
+            key={s.id}
+            className="subject-card glass"
+            style={{ animationDelay: `${i * 70}ms` }}
+            onClick={() => onSelect(s)}
+          >
+            <span className="subject-avatar">{s.name.charAt(0).toUpperCase()}</span>
             <span className="subject-name">{s.name}</span>
-            <span className="subject-cta">Practice →</span>
+            <span className="subject-cta">
+              Practice <span className="arrow">→</span>
+            </span>
           </button>
         ))}
       </div>
