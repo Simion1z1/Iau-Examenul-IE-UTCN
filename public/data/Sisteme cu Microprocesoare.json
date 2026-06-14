@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "question": "O memorie de 10 GB organizată pe pagini poate fi în același timp și segmentată?",
     "correct_answer": "Depinde de structura sistemului de gestionare a programului",
     "wrong_answers": [
@@ -9,7 +8,6 @@
     ]
   },
   {
-    "id": 2,
     "question": "Arhitectura microprocesorului 286 este caracterizată de modul de lucru:",
     "correct_answer": "pipe-line",
     "wrong_answers": [
@@ -18,7 +16,6 @@
     ]
   },
   {
-    "id": 3,
     "question": "Simultan cu lansarea unei cereri de întrerupere, un periferic:",
     "correct_answer": "poate plasa pe magistrala de date un cod de instrucțiune",
     "wrong_answers": [
@@ -27,7 +24,6 @@
     ]
   },
   {
-    "id": 4,
     "question": "Generarea succesiunii de semnale de comandă și control care duc la execuția unei instrucțiuni este realizată în:",
     "correct_answer": "blocul pentru decodificarea instrucțiunilor",
     "wrong_answers": [
@@ -36,7 +32,6 @@
     ]
   },
   {
-    "id": 5,
     "question": "Se consideră următoarea secvență de program. Se consideră că „RTI 1\" începe la „AA30\" și se termină la „AA32\" cu instrucțiunea „RET\":\n6138 COD INSTRUCȚIUNE\n6139 COD INSTRUCȚIUNE\n613A COD INSTRUCȚIUNE\n613B OP1\n613C OP2\n613E CALL RTI 1\n613F END\nEvoluția în timp a conținutului registrului „PC\" este:",
     "correct_answer": "6138 6139 613A 613E AA30 AA31 AA32 613F",
     "wrong_answers": [
@@ -45,7 +40,6 @@
     ]
   },
   {
-    "id": 6,
     "question": "Instrucțiunea de tip „RESTART\" permite:",
     "correct_answer": "adresarea pe doi octeți (un octet cod instrucțiune + un octet adresă)",
     "wrong_answers": [
@@ -54,7 +48,6 @@
     ]
   },
   {
-    "id": 7,
     "question": "Care din instrucțiunile de mai jos precizează o adresă?",
     "correct_answer": "LD (HL), A",
     "wrong_answers": [
@@ -63,7 +56,6 @@
     ]
   },
   {
-    "id": 8,
     "question": "De ce vectorul de întrerupere este întotdeauna un număr par?",
     "correct_answer": "deoarece adresele RTI sunt stocate în tabela de întreruperi pe câte doi octeți succesivi",
     "wrong_answers": [
@@ -72,7 +64,6 @@
     ]
   },
   {
-    "id": 9,
     "question": "Un octet adresat prin registrul „P.C.\" este transferat în:",
     "correct_answer": "registrul de instrucțiuni",
     "wrong_answers": [
@@ -81,7 +72,6 @@
     ]
   },
   {
-    "id": 10,
     "question": "Fenomenul de supraînscriere apare la:",
     "correct_answer": "memoria globală",
     "wrong_answers": [
@@ -90,7 +80,6 @@
     ]
   },
   {
-    "id": 11,
     "question": "Instrucțiunea „lcd.setcursor()\" realizează:",
     "correct_answer": "plasarea cursorului de scriere de pe ecranul LCD la celula și rândul specificat",
     "wrong_answers": [
@@ -99,7 +88,6 @@
     ]
   },
   {
-    "id": 12,
     "question": "Argumentele funcției „lcd.begin(x, y)\" sunt:",
     "correct_answer": "x = număr de celule (sau coloane), y = număr de rânduri",
     "wrong_answers": [
@@ -108,7 +96,6 @@
     ]
   },
   {
-    "id": 13,
     "question": "Funcția C++ echivalentă sintagmei din Wiring C „void loop()\" reprezintă:",
     "correct_answer": "funcția „while(1)\" (care reprezintă o buclă „while\" infinită)",
     "wrong_answers": [
@@ -117,7 +104,6 @@
     ]
   },
   {
-    "id": 14,
     "question": "Scopul întocmirii unei simulări cu ajutorul platformei de dezvoltare Arduino și al mediului Matlab - Simulink este:",
     "correct_answer": "de a interacționa în timp real din calculator cu aparatura de test prin intermediul perifericelor specializate atașate microcontrolerului",
     "wrong_answers": [
@@ -126,7 +112,6 @@
     ]
   },
   {
-    "id": 15,
     "question": "Se consideră un registru indicator LED, corespunzător unui sir de 8 LED-uri. În componența registrului există patru indicatori verzi și patru indicatori roșii. Registrul dat semnalizează conform secvenței din imaginea de mai jos. Valoarea numerică introdusă în format hexazecimal este:",
     "correct_answer": "0x5B",
     "wrong_answers": [
@@ -135,7 +120,6 @@
     ]
   },
   {
-    "id": 16,
     "question": "Pinii digitali marcați cu inițialele „Tx\" și „Rx\" (în cazul platformei Arduino):",
     "correct_answer": "sunt aferenți magistralei asincrone serial (UART)",
     "wrong_answers": [
@@ -144,7 +128,6 @@
     ]
   },
   {
-    "id": 17,
     "question": "Se consideră terminalul electric nr. 9 ca fiind o ieșire digitală la care este conectat un indicator LED. Pentru respectivul montaj, se dă următoarea secvență de cod:\nvoid loop() {\ndigitalWrite(9, HIGH);\ndelay(1000);\ndigitalWrite(9, LOW);\ndelay(1000);\n}\nComportamentul indicatorului luminos LED este următorul:",
     "correct_answer": "clipește la interval de o secundă și se repetă ciclul la infinit",
     "wrong_answers": [
@@ -153,7 +136,6 @@
     ]
   },
   {
-    "id": 18,
     "question": "Dacă un convertor analog – numeric cu rezoluția de 12 biți este alimentat la tensiunea de referință de 9 [V], atunci tensiunea corespunzătoare citirii 376 este:",
     "correct_answer": "(9 / 4095) * 376 [V]",
     "wrong_answers": [
@@ -162,7 +144,6 @@
     ]
   },
   {
-    "id": 19,
     "question": "Instrucțiunea specifică limbajului Wiring C destinată gestionării perifericelor intrărilor analogice este:",
     "correct_answer": "analogRead()",
     "wrong_answers": [
@@ -171,7 +152,6 @@
     ]
   },
   {
-    "id": 20,
     "question": "Funcția „y = map(x, 0, 1023, 0, 100)\" realizează:",
     "correct_answer": "scalarea valorilor variabilei y în domeniul [0 - 100]",
     "wrong_answers": [
@@ -180,7 +160,6 @@
     ]
   },
   {
-    "id": 21,
     "question": "Ce reprezintă tehnologia ON-BOARD?",
     "correct_answer": "Integrarea modulelor de interfațare în structura generală a sistemului de calcul.",
     "wrong_answers": [
@@ -190,7 +169,6 @@
     ]
   },
   {
-    "id": 22,
     "question": "Care dintre următoarele nu este un avantaj al tehnologiei ON-BOARD?",
     "correct_answer": "Inter-operabilitatea pentru toate funcțiile sistemului.",
     "wrong_answers": [
@@ -200,7 +178,6 @@
     ]
   },
   {
-    "id": 23,
     "question": "Care este un dezavantaj al tehnologiei ON-BOARD?",
     "correct_answer": "Modulele integrate nu au resurse proprii, inclusiv memorie RAM video.",
     "wrong_answers": [
@@ -210,7 +187,6 @@
     ]
   },
   {
-    "id": 24,
     "question": "Ce reprezintă tehnologia System-on-Chip (SoC)?",
     "correct_answer": "Integrarea mai multor structuri complexe într-un singur cip.",
     "wrong_answers": [
@@ -220,7 +196,6 @@
     ]
   },
   {
-    "id": 25,
     "question": "Care dintre următoarele nu este un avantaj al tehnologiei System-on-Chip (SoC)?",
     "correct_answer": "Permite flexibilitatea în gestionarea separată a software-ului.",
     "wrong_answers": [
@@ -230,7 +205,6 @@
     ]
   },
   {
-    "id": 26,
     "question": "Care este un dezavantaj al tehnologiei System-on-Chip (SoC)?",
     "correct_answer": "Defectarea unui singur modul afectează întregul cip.",
     "wrong_answers": [
@@ -240,7 +214,6 @@
     ]
   },
   {
-    "id": 27,
     "question": "Ce reprezintă tehnologia sistemelor EMBEDDED?",
     "correct_answer": "Un sistem de calcul în timp real",
     "wrong_answers": [
@@ -250,7 +223,6 @@
     ]
   },
   {
-    "id": 28,
     "question": "Care dintre următoarele nu este un avantaj al tehnologiei ON-BOARD?",
     "correct_answer": "Performanțe independente de întregul sistem",
     "wrong_answers": [
@@ -260,7 +232,6 @@
     ]
   },
   {
-    "id": 29,
     "question": "Ce reprezintă tehnologia System-on-Chip (SoC)?",
     "correct_answer": "Integrarea mai multor structuri complexe într-un singur cip",
     "wrong_answers": [
@@ -270,7 +241,6 @@
     ]
   },
   {
-    "id": 30,
     "question": "Care dintre următoarele nu este un dezavantaj al tehnologiei System-on-Chip (SoC)?",
     "correct_answer": "Consum energetic redus",
     "wrong_answers": [
@@ -280,7 +250,6 @@
     ]
   },
   {
-    "id": 31,
     "question": "Care dintre următoarele nu este un domeniu de aplicare al sistemelor embedded?",
     "correct_answer": "Industria petrochimică",
     "wrong_answers": [
@@ -290,7 +259,6 @@
     ]
   },
   {
-    "id": 32,
     "question": "Ce reprezintă un microcontroler?",
     "correct_answer": "Un sistem cu microprocesor și interfețe periferice",
     "wrong_answers": [
@@ -300,7 +268,6 @@
     ]
   },
   {
-    "id": 33,
     "question": "Ce caracteristică specifică are arhitectura Harvard?",
     "correct_answer": "Permite realizarea de operații simultane de adresare și preluare din memorie",
     "wrong_answers": [
@@ -310,7 +277,6 @@
     ]
   },
   {
-    "id": 34,
     "question": "Care dintre următoarele este un exemplu de platformă de dezvoltare pentru sisteme embedded?",
     "correct_answer": "Arduino UNO",
     "wrong_answers": [
@@ -320,7 +286,6 @@
     ]
   },
   {
-    "id": 35,
     "question": "Care dintre următoarele este o caracteristică a memoriei volatile?",
     "correct_answer": "Conținutul memoriei se pierde la oprirea alimentării sistemului.",
     "wrong_answers": [
@@ -330,7 +295,6 @@
     ]
   },
   {
-    "id": 36,
     "question": "Care dintre următoarele este un exemplu de memorie volatilă statică?",
     "correct_answer": "SRAM",
     "wrong_answers": [
@@ -340,7 +304,6 @@
     ]
   },
   {
-    "id": 37,
     "question": "Care dintre următoarele este un dezavantaj al memoriei DRAM?",
     "correct_answer": "Are nevoie de reîmprospătare constantă a informațiilor.",
     "wrong_answers": [
@@ -350,7 +313,6 @@
     ]
   },
   {
-    "id": 38,
     "question": "Care dintre următoarele este un exemplu de memorie nevolatilă?",
     "correct_answer": "PROM",
     "wrong_answers": [
@@ -360,7 +322,6 @@
     ]
   },
   {
-    "id": 39,
     "question": "Care dintre următoarele este o caracteristică a memoriei Flash?",
     "correct_answer": "Poate fi programată și ștearsă în circuit sau în sistem.",
     "wrong_answers": [
@@ -370,7 +331,6 @@
     ]
   },
   {
-    "id": 40,
     "question": "Ce înseamnă acronimul NVRAM?",
     "correct_answer": "Non-Volatile RAM",
     "wrong_answers": [
@@ -380,7 +340,6 @@
     ]
   },
   {
-    "id": 41,
     "question": "Ce reprezintă I/O în contextul calculatoarelor?",
     "correct_answer": "Interfețe de intrare/ieșire",
     "wrong_answers": [
@@ -390,7 +349,6 @@
     ]
   },
   {
-    "id": 42,
     "question": "Care dintre următoarele este o caracteristică a microcontrolerelor?",
     "correct_answer": "Conțin toate componentele pe același cip.",
     "wrong_answers": [
@@ -400,7 +358,6 @@
     ]
   },
   {
-    "id": 43,
     "question": "Câte registre generale există în microcontrolerele AVR?",
     "correct_answer": "32 registre",
     "wrong_answers": [
@@ -410,7 +367,6 @@
     ]
   },
   {
-    "id": 44,
     "question": "Care dintre următoarele sunt registre generale de 8 biți în microcontrolerele AVR?",
     "correct_answer": "R0-R31",
     "wrong_answers": [
@@ -420,7 +376,6 @@
     ]
   },
   {
-    "id": 45,
     "question": "Ce dimensiune au registrele X, Y și Z în microcontrolerele AVR?",
     "correct_answer": "16 biți fiecare",
     "wrong_answers": [
@@ -430,7 +385,6 @@
     ]
   },
   {
-    "id": 46,
     "question": "Care dintre următoarele asocieri este corectă?",
     "correct_answer": "Y = R28&R29",
     "wrong_answers": [
@@ -440,7 +394,6 @@
     ]
   },
   {
-    "id": 47,
     "question": "Care registru este utilizat pentru stocarea adresei de memorie în adresarea indirectă în microcontrolerele AVR?",
     "correct_answer": "Z",
     "wrong_answers": [
@@ -450,7 +403,6 @@
     ]
   },
   {
-    "id": 48,
     "question": "Care registru reprezintă starea CPU-ului în microcontrolerele AVR?",
     "correct_answer": "SREG",
     "wrong_answers": [
@@ -460,7 +412,6 @@
     ]
   },
   {
-    "id": 49,
     "question": "Ce dimensiune are program counter-ul (PC) în microcontrolerele AVR?",
     "correct_answer": "16 biți",
     "wrong_answers": [
@@ -470,7 +421,6 @@
     ]
   },
   {
-    "id": 50,
     "question": "Ce tip de registre sunt TCCR0 și ADMUX în microcontrolerele AVR?",
     "correct_answer": "Registre pentru periferice",
     "wrong_answers": [
@@ -480,7 +430,6 @@
     ]
   },
   {
-    "id": 51,
     "question": "Câte registre SFR (Special Function Registers) pot exista în microcontrolerele AVR?",
     "correct_answer": "64+160 registre",
     "wrong_answers": [
@@ -490,7 +439,6 @@
     ]
   },
   {
-    "id": 52,
     "question": "Ce este SPI?",
     "correct_answer": "O interfață sincronă point-to-point",
     "wrong_answers": [
@@ -500,7 +448,6 @@
     ]
   },
   {
-    "id": 53,
     "question": "Care dintre următoarele linii este utilizată de master pentru a transmite date către slave în SPI?",
     "correct_answer": "MOSI",
     "wrong_answers": [
@@ -510,7 +457,6 @@
     ]
   },
   {
-    "id": 54,
     "question": "Care dintre următoarele linii este utilizată de slave pentru a transmite date către master în SPI?",
     "correct_answer": "MISO",
     "wrong_answers": [
@@ -520,7 +466,6 @@
     ]
   },
   {
-    "id": 55,
     "question": "Ce semnal este transmis de către master pe linia SCK în SPI?",
     "correct_answer": "Semnal de ceas",
     "wrong_answers": [
@@ -530,7 +475,6 @@
     ]
   },
   {
-    "id": 56,
     "question": "Care dintre următoarele afirmații este adevărată despre adresarea în protocolul SPI?",
     "correct_answer": "Este opțională și nu este obligatorie",
     "wrong_answers": [
@@ -540,7 +484,6 @@
     ]
   },
   {
-    "id": 57,
     "question": "La ce viteză maximă poate fi realizat transferul de date în protocolul SPI?",
     "correct_answer": "60 Mb/s",
     "wrong_answers": [
@@ -550,7 +493,6 @@
     ]
   },
   {
-    "id": 58,
     "question": "Care dintre următoarele sunt exemple practice de utilizare a protocolului SPI?",
     "correct_answer": "Transfer de date între microcontrolere și alte sisteme de calcul",
     "wrong_answers": [
@@ -560,7 +502,6 @@
     ]
   },
   {
-    "id": 59,
     "question": "Ce tip de protocol este I2C / IIC?",
     "correct_answer": "Protocol sincron",
     "wrong_answers": [
@@ -570,7 +511,6 @@
     ]
   },
   {
-    "id": 60,
     "question": "Care sunt firele utilizate în comunicarea I2C / IIC?",
     "correct_answer": "SCL și SDA",
     "wrong_answers": [
@@ -580,7 +520,6 @@
     ]
   },
   {
-    "id": 61,
     "question": "Ce tip de adrese sunt utilizate în I2C / IIC pentru identificarea dispozitivelor?",
     "correct_answer": "Adrese de 7 biți",
     "wrong_answers": [
@@ -590,7 +529,6 @@
     ]
   },
   {
-    "id": 62,
     "question": "Câte adrese potențiale de dispozitiv sunt posibile în I2C / IIC cu adrese de 7 biți?",
     "correct_answer": "128 adrese",
     "wrong_answers": [
@@ -600,7 +538,6 @@
     ]
   },
   {
-    "id": 63,
     "question": "Ce condiție definește o tranziție HIGH-LOW pe linia SDA, în timp ce SCL este HIGH în I2C / IIC?",
     "correct_answer": "Condiție START",
     "wrong_answers": [
@@ -610,7 +547,6 @@
     ]
   },
   {
-    "id": 64,
     "question": "Ce tip de pachete de date sunt transferate pe o magistrală I2C / IIC?",
     "correct_answer": "Pachete de date",
     "wrong_answers": [
@@ -620,7 +556,6 @@
     ]
   },
   {
-    "id": 65,
     "question": "Câte biți are un pachet de adresă în I2C / IIC?",
     "correct_answer": "9 biți",
     "wrong_answers": [
@@ -630,7 +565,6 @@
     ]
   },
   {
-    "id": 66,
     "question": "Echipamentele atașate pe magistrala interfeței I2C:",
     "correct_answer": "trebuie să aibă adrese distincte alocate",
     "wrong_answers": [
@@ -639,7 +573,6 @@
     ]
   },
   {
-    "id": 67,
     "question": "Pe pinul 5 al portului D al Atmega 328P se conectează un LED. Declararea hardware a stării acestui pin se face cu instrucțiunea:",
     "correct_answer": "SBI PORTC, 5",
     "wrong_answers": [
@@ -648,7 +581,6 @@
     ]
   },
   {
-    "id": 68,
     "question": "Magistrala de date a unui sistem cu microprocesor asigură:",
     "correct_answer": "transferul unidirecționat de instrucțiuni de la memorie și bidirecțional de date între memorie, unitatea centrală, interfețele de I/O",
     "wrong_answers": [
@@ -657,7 +589,6 @@
     ]
   },
   {
-    "id": 69,
     "question": "Fie expresia tensiunii pentru un convertor analog – numeric având rezoluția 10 biți: tensiune = (5/1023)*ADC_val. Secvența următoare de cod reprezintă:\nfor(i=1, i <= N, i++) {\ntensiune = (5/1023)*ADC_val;\nsuma += tensiune;\n}\nrezultat = suma/N;",
     "correct_answer": "media aritmetică a unui semnal continuu",
     "wrong_answers": [
@@ -666,7 +597,6 @@
     ]
   },
   {
-    "id": 70,
     "question": "Registrele de uz general a familiei de microcontrolere AVR:",
     "correct_answer": "Permit accesarea pe 16 biți a informației, prin 3 registre X, Y, Z",
     "wrong_answers": [
@@ -675,7 +605,6 @@
     ]
   },
   {
-    "id": 71,
     "question": "Fie funcția „y=map(x, 1000, 0, 0, 100)\" în Arduino IDE. Pentru x=1000, conform funcției, se va genera:",
     "correct_answer": "y=0",
     "wrong_answers": [
@@ -684,7 +613,6 @@
     ]
   },
   {
-    "id": 72,
     "question": "Cu ajutorul funcției „analogRead()\":",
     "correct_answer": "se preia un semnal analogic",
     "wrong_answers": [
@@ -693,7 +621,6 @@
     ]
   },
   {
-    "id": 73,
     "question": "Care din următoarele registre sunt pentru accesarea porturilor I/O ale AVR:",
     "correct_answer": "Toate",
     "wrong_answers": [
@@ -704,7 +631,6 @@
     ]
   },
   {
-    "id": 74,
     "question": "Identificați afirmația corectă:",
     "correct_answer": "la aceeași dimensiune a cipului, o memorie DRAM are o capacitate de stocare mai mare în comparație cu o SRAM",
     "wrong_answers": [
@@ -713,7 +639,6 @@
     ]
   },
   {
-    "id": 75,
     "question": "Se dau valorile următoare pentru segmentul de cod CS:24F0h și offset IP: 226h. Calculați adresa fizică:",
     "correct_answer": "25126 h",
     "wrong_answers": [
@@ -722,7 +647,6 @@
     ]
   },
   {
-    "id": 76,
     "question": "Calculați ieșirea digitală (D7-D0) pentru o valoare de intrare analogică de 0,68V, pentru un CAD de 8 biți cu Vref 2.55V:",
     "correct_answer": "01101000",
     "wrong_answers": [
@@ -731,7 +655,6 @@
     ]
   },
   {
-    "id": 77,
     "question": "Care din următoarele instrucțiuni nu sunt adevărate:",
     "correct_answer": "registrul care furnizează selectarea unui prescaler pentru calcularea semnalului de ceas CAD este Data Register ADCH&ADCL",
     "wrong_answers": [
@@ -740,7 +663,6 @@
     ]
   },
   {
-    "id": 78,
     "question": "Cu ajutorul funcției „analogWrite()\":",
     "correct_answer": "se generează un tren de impulsuri cu factor de umplere variabil",
     "wrong_answers": [
@@ -749,7 +671,6 @@
     ]
   },
   {
-    "id": 79,
     "question": "Pentru microprocesorul INTEL 8086, segmentul de stivă poate ocupa în memorie maximum:",
     "correct_answer": "64K octeți",
     "wrong_answers": [
@@ -758,7 +679,6 @@
     ]
   },
   {
-    "id": 80,
     "question": "Care din următoarele afirmații sunt referitoare la avantajele folosirii a două unități de execuție separate pentru 8086:",
     "correct_answer": "Asigură suprapunerea în timp a etapei de extragere a unei instrucțiuni cu etapa de execuție a unei instrucțiuni extrase anterior din memorie",
     "wrong_answers": [
@@ -767,7 +687,6 @@
     ]
   },
   {
-    "id": 81,
     "question": "Nu se poate face comanda pe pinii unui port I/O AVR, decât dacă:",
     "correct_answer": "Registrul DDR al portului respectiv este setat la 1",
     "wrong_answers": [
@@ -777,7 +696,6 @@
     ]
   },
   {
-    "id": 82,
     "question": "Arhitectura Atmega328P are următoarele categorii de componente?",
     "correct_answer": "CPU, SRAM, Flash ROM, EEPROM, 3 porturi I/O",
     "wrong_answers": [
@@ -788,7 +706,6 @@
     ]
   },
   {
-    "id": 83,
     "question": "Alegeți informația incorectă despre stiva 8086:",
     "correct_answer": "Stiva are locații pe 8 biți",
     "wrong_answers": [
@@ -797,7 +714,6 @@
     ]
   },
   {
-    "id": 84,
     "question": "Adresabilitatea maximă a unui procesor este dată de:",
     "correct_answer": "Registrul PC",
     "wrong_answers": [
@@ -806,7 +722,6 @@
     ]
   },
   {
-    "id": 85,
     "question": "Care dintre următoarele afirmații sunt adevărate pentru arhitectura HARVARD?",
     "correct_answer": "magistrale separate pentru memoria de program și memoria de date",
     "wrong_answers": [
