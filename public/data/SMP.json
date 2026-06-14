@@ -41,10 +41,10 @@
   },
   {
     "question": "Instrucțiunea de tip „RESTART\" permite:",
-    "correct_answer": "adresarea pe doi octeți (un octet cod instrucțiune + un octet adresă)",
+    "correct_answer": "adresarea pe un singur octet (cod instrucțiune + adresă)",
     "wrong_answers": [
       "adresarea implicită",
-      "adresarea pe un singur octet (cod instrucțiune + adresă)"
+      "adresarea pe doi octeți (un octet cod instrucțiune + un octet adresă)"
     ]
   },
   {
