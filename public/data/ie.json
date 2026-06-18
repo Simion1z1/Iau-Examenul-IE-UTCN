@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "question": "Care dintre următoarele caracteristici NU face parte din lista caracteristicilor tehnice, nominale, ale receptoarelor:",
+    "correct_answers": [
+      "Puterea cerută Pc"
+    ],
+    "wrong_answers": [
+      "Puterea activă P (natura acesteia, electrică sau utilă), sau aparentă S",
+      "Randamentul",
+      "Curentul relativ de pornire"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Care dintre inegalitățile de mai jos sunt adevărate la alegerea siguranței fuzibile:",
+    "correct_answers": [
+      "I_Fn ≥ I_p / c",
+      "I_Fn ≥ K_tf · I_rt"
+    ],
+    "wrong_answers": [
+      "I_Fn ≤ K_tf · I_rt",
+      "I_Fn ≤ I_c"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Secțiunea conductoarelor electrice influențează:",
+    "correct_answers": [
+      "Pierderea de tensiune",
+      "Solicitarea termică a acestora"
+    ],
+    "wrong_answers": [
+      "Alegerea siguranțelor fuzibile",
+      "Curentul de reglaj al releului termic"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Siguranța fuzibilă are rol de:",
+    "correct_answers": [
+      "Protecție la scurtcircuit"
+    ],
+    "wrong_answers": [
+      "Protecție împotriva electrocutării",
+      "Protecție la suprasarcină",
+      "Protecție diferențială"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Curentul de vârf (Iv) este definit de relația:",
+    "correct_answers": [
+      "I_PM + Σ(j=1..n-1) I_cj",
+      "I_PM + I_c(n-1)"
+    ],
+    "wrong_answers": [
+      "Σ(j=1..n) I_cj",
+      "I_PM / c + I_c(n-1)"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Care dintre variantele de rețele de alimentare cu Linie Principală, de mai jos, este de tipul linie principală nesecționată, cu sarcini concentrate?",
+    "correct_answers": [
+      "b)"
+    ],
+    "wrong_answers": [
+      "a)",
+      "c)",
+      "d)"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Factorul de uniformitate pe planul util se calculează cu următoarea relație:",
+    "correct_answers": [
+      "Emin / Emed"
+    ],
+    "wrong_answers": [
+      "Emin / Emax",
+      "Emax / Emin",
+      "Emed / Emin"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Care este relația corectă de calcul pentru coeficientul de utilizare a puterii instalate (în cadrul indicatorilor curbelor de sarcină):",
+    "correct_answers": [
+      "K_Pi = P_med / P_i"
+    ],
+    "wrong_answers": [
+      "K_Pi = P_med / P_M",
+      "K_Pi = P_c / P_i",
+      "K_Pi = P_i / Q_i"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Care dintre figurile de mai jos reprezintă o variantă a celulelor plecare – linii ale unui Post de Transformare:",
+    "correct_answers": [
+      "b)"
+    ],
+    "wrong_answers": [
+      "a)",
+      "c)",
+      "d)"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Treapta fixă a bateriei de condensatoare trebuie să îndeplinească următoarea condiție:",
+    "correct_answers": [
+      "să reprezinte maxim 20% din puterea aparentă nominală a transformatorului"
+    ],
+    "wrong_answers": [
+      "să reprezinte maxim 20% din puterea reactivă nominală a transformatorului",
+      "să reprezinte minim 20% din puterea activă nominală a transformatorului",
+      "să reprezinte minim 20% din puterea absorbită a instalației"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Curentul cerut Ic depinde de:",
+    "correct_answers": [
+      "Puterea aparentă cerută, tensiunea nominală"
+    ],
+    "wrong_answers": [
+      "Puterea activă utilă cerută, tensiunea nominală, coeficientul relativ de pornire",
+      "Puterea activă reală, tensiunea nominală, randament, factorul de putere",
+      "Puterea activă absorbită, tensiunea nominală, factorul de putere"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Pentru a avea selectivitate între protecțiile unei rețele electrice de distribuție, ordinea de alegere a acestora este:",
+    "correct_answers": [
+      "Circuite de receptor, circuite de utilaj, coloane tablouri de distribuție, coloană generală din PT",
+      "De la receptoare spre PT (punctul de alimentare)"
+    ],
+    "wrong_answers": [
+      "Circuite de utilaj, receptoare, coloane tablouri de distribuție",
+      "Coloană generală din PT, Coloane tablouri de distribuție, Circuite de utilaj, Circuite de receptor"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "La dimensionarea protecției circuitelor de receptor nu trebuie să asigurăm selectivitatea între:",
+    "correct_answers": [
+      "Separator și siguranța fuzibilă",
+      "Contactor și releu termic"
+    ],
+    "wrong_answers": [
+      "Siguranță fuzibilă și releu termic",
+      "Niciunul dintre răspunsuri"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "În figură se evidențiază caracteristicile de protecție a următoarelor aparate de protecție:",
+    "correct_answers": [
+      "Siguranță fuzibilă aval (cu linie întreruptă), aleasă necorespunzător față de întreruptor automat amonte",
+      "Siguranță fuzibilă aval (linie continuă) și întreruptor automat amonte"
+    ],
+    "wrong_answers": [
+      "Siguranță fuzibilă aval (cu linie întreruptă) și releu termic amonte",
+      "Siguranță fuzibilă amonte (cu linie continuă) și întreruptor automat aval"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Care dintre afirmațiile următoare, referitoare la puterea activă cerută, NU este adevărată:",
+    "correct_answers": [
+      "produce în elementele instalației electrice un efect termic diferit de cel produs de puterea variabilă reală într-un interval de timp determinat în perioada de încărcare maximă"
+    ],
+    "wrong_answers": [
+      "este constantă în timp",
+      "este putere activă absorbită, convențională",
+      "P_c = k_c · P_i, (unde k_c este coeficientul de cerere)"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Care este relația de calcul pentru puterea instalată a unui receptor:",
+    "correct_answers": [
+      "P_i = P_n pentru receptoare care funcționează în mod continuu",
+      "P_i = P_n · √(DA_n)"
+    ],
+    "wrong_answers": [
+      "P_i = P_med",
+      "P_i = P_c · √(DA_n)"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Pentru alegerea releului termic trebuie să avem în vedere:",
+    "correct_answers": [
+      "Domeniul curenților de suprasarcină și domeniul reglajului posibil",
+      "I_rt = min (I_rt1 ∩ I_rt2)"
+    ],
+    "wrong_answers": [
+      "Selectivitatea cu siguranța fuzibilă",
+      "I_s ≥ I_Fn"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Care dintre următoarele tipuri de celule NU fac parte dintre celulele funcționale de pe joasă tensiune ale unui post de transformare:",
+    "correct_answers": [
+      "celule sosiri"
+    ],
+    "wrong_answers": [
+      "celule plecări",
+      "celule de compensare a puterii reactive",
+      "celule cuplă"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Cum se alege puterea unui transformator de alimentare (SnT) pentru un consumator de categoria a doua?",
+    "correct_answers": [
+      "S_nT ≥ S_PT / 2"
+    ],
+    "wrong_answers": [
+      "S_nT ≥ S_PT",
+      "S_nT ≥ S_PT / 3",
+      "S_nT ≥ S_cI / 2"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Care dintre următoarele afirmații sunt adevărate, în cazul simetriei tensiunilor?",
+    "correct_answers": [
+      "Celor 3 tensiuni de fază trebuie să le corespundă trei fazori de fază, succesiv cu 120°",
+      "Cei 3 fazori corespunzători tensiunilor de fază trebuie să fie egali în modul"
+    ],
+    "wrong_answers": [
+      "Celor 3 tensiuni de fază trebuie să le corespundă trei fazori de fază, succesiv cu 90°",
+      "Diferența dintre modulul celor 3 fazori corespunzători tensiunilor de fază poate să fie de 5%"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Care dintre aparatele din componența unui circuit de alimentare a unui receptor nu este de comutație:",
+    "correct_answers": [
+      "Releul termic"
+    ],
+    "wrong_answers": [
+      "Separatorul",
+      "Întreruptorul neautomat",
+      "Contactorul"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Care este nivelul tensiunii în instalațiile electrice de joasă tensiune (JT) și care este valoarea frecvenței industriale?",
+    "correct_answers": [
+      "U_ln < 1 kV și f = 50 Hz"
+    ],
+    "wrong_answers": [
+      "1 kV < U_ln < 35 kV și f = 60 Hz",
+      "U_ln < 6 kV și f = 50 Hz",
+      "U_ln < 1 kV și f = 60 Hz"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Pierderile de tensiune în rețelele trifazate, cu sarcini concentrate la capăt, se calculează cu relația:",
+    "correct_answers": [
+      "(X_L·Q_c + R_L·P_c) / U_ln²"
+    ],
+    "wrong_answers": [
+      "(X_L·Q_c + R_L·P_c) / U_fn²",
+      "(X_L·Q_c − R_L·P_c) / U_ln²",
+      "(100·R_L·P_p) / U_fn²"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "În figura din imagine sunt reprezentate coordonatele geometrice ale punctului Pm de iluminare minimă:",
+    "correct_answers": [
+      "în cazul amplasării axiale a aparatelor de iluminat"
+    ],
+    "wrong_answers": [
+      "în cazul amplasării unilaterale a aparatelor de iluminat",
+      "în sistemul de iluminat bilateral, față în față",
+      "în sistemul de iluminat bilateral, alternativ (zig-zag)"
+    ]
+  }
+]
