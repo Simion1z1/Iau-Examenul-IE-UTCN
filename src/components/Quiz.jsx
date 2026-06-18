@@ -11,41 +11,77 @@ function shuffle(arr) {
   return a;
 }
 
+// Backward compatible: a question with `correct_answers` (array) is multi-select;
+// otherwise the single `correct_answer` string is used (existing files unchanged).
+function correctsOf(q) {
+  if (!q) return [];
+  // Accept a list under either key; otherwise the single correct_answer string.
+  if (Array.isArray(q.correct_answers) && q.correct_answers.length) {
+    return q.correct_answers;
+  }
+  if (Array.isArray(q.correct_answer) && q.correct_answer.length) {
+    return q.correct_answer;
+  }
+  return [q.correct_answer];
+}
+
 export default function Quiz({ subject, onBack }) {
   const [questions, setQuestions] = useState([]);
   const [status, setStatus] = useState("loading"); // loading | ready | error
   const [index, setIndex] = useState(0);
   const [options, setOptions] = useState([]);
-  const [selected, setSelected] = useState(null);
+  const [chosen, setChosen] = useState([]);   // options the user picked
+  const [locked, setLocked] = useState(false); // feedback shown / answer submitted
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
 
   const current = questions[index];
+  const corrects = correctsOf(current);
+  const isMulti = corrects.length > 1;
+  const total = questions.length;
+  const isLast = index === total - 1;
+
+  const answeredCorrect =
+    locked &&
+    chosen.length === corrects.length &&
+    corrects.every((c) => chosen.includes(c));
 
   useEffect(() => {
     getQuiz(subject)
       .then((data) => {
-        // Shuffle the question order so it differs every time.
-        setQuestions(shuffle(data.questions || []));
+        setQuestions(shuffle(data.questions || [])); // random question order
         setStatus("ready");
       })
       .catch(() => setStatus("error"));
   }, [subject]);
 
-  // Re-shuffle the options whenever the current question changes.
+  // Re-shuffle options and reset answer state whenever the question changes.
   useEffect(() => {
     if (!current) return;
-    setOptions(shuffle([current.correct_answer, ...current.wrong_answers]));
-    setSelected(null);
+    setOptions(shuffle([...correctsOf(current), ...current.wrong_answers]));
+    setChosen([]);
+    setLocked(false);
   }, [current]);
 
-  const total = questions.length;
-  const isLast = index === total - 1;
+  function handleOption(option) {
+    if (locked) return;
+    if (isMulti) {
+      // toggle selection, wait for the "Check" button
+      setChosen((c) => (c.includes(option) ? c.filter((o) => o !== option) : [...c, option]));
+    } else {
+      // single answer: lock immediately
+      setChosen([option]);
+      setLocked(true);
+      if (corrects[0] === option) setScore((s) => s + 1);
+    }
+  }
 
-  function handleSelect(option) {
-    if (selected !== null) return; // lock after first choice
-    setSelected(option);
-    if (option === current.correct_answer) setScore((s) => s + 1);
+  function check() {
+    if (locked || chosen.length === 0) return;
+    setLocked(true);
+    const ok =
+      chosen.length === corrects.length && corrects.every((c) => chosen.includes(c));
+    if (ok) setScore((s) => s + 1);
   }
 
   function handleNext() {
@@ -54,18 +90,19 @@ export default function Quiz({ subject, onBack }) {
   }
 
   function restart() {
-    // Re-shuffle the questions for a fresh random order on every retry.
-    setQuestions((qs) => shuffle(qs));
+    setQuestions((qs) => shuffle(qs)); // fresh random order on retry
     setIndex(0);
     setScore(0);
-    setSelected(null);
+    setChosen([]);
+    setLocked(false);
     setFinished(false);
   }
 
   function classFor(option) {
-    if (selected === null) return "option glass";
-    if (option === current.correct_answer) return "option glass correct";
-    if (option === selected) return "option glass wrong";
+    const picked = chosen.includes(option);
+    if (!locked) return picked ? "option glass picked" : "option glass";
+    if (corrects.includes(option)) return "option glass correct";
+    if (picked) return "option glass wrong";
     return "option glass dim";
   }
 
@@ -126,31 +163,48 @@ export default function Quiz({ subject, onBack }) {
 
       <div className="quiz-card glass" key={index}>
         <h2 className="question">{current.question}</h2>
+        {isMulti && !locked && (
+          <p className="multi-hint">✔️ Multiple answers — select all that apply, then Check.</p>
+        )}
 
         <div className="options">
           {options.map((opt) => (
             <button
               key={opt}
               className={classFor(opt)}
-              onClick={() => handleSelect(opt)}
-              disabled={selected !== null}
+              onClick={() => handleOption(opt)}
+              disabled={locked}
             >
-              <span className="option-text">{opt}</span>
-              {selected !== null && opt === current.correct_answer && (
-                <span className="mark ok">✓</span>
+              {isMulti && !locked && (
+                <span className={chosen.includes(opt) ? "checkbox on" : "checkbox"} />
               )}
-              {selected !== null && opt === selected && opt !== current.correct_answer && (
+              <span className="option-text">{opt}</span>
+              {locked && corrects.includes(opt) && <span className="mark ok">✓</span>}
+              {locked && chosen.includes(opt) && !corrects.includes(opt) && (
                 <span className="mark bad">✗</span>
               )}
             </button>
           ))}
         </div>
 
-        {selected !== null && (
+        {isMulti && !locked && (
           <div className="feedback">
-            <span className={selected === current.correct_answer ? "ok" : "bad"}>
-              {selected === current.correct_answer
+            <span className="info" style={{ padding: 0 }}>
+              {chosen.length} selected
+            </span>
+            <button className="primary" onClick={check} disabled={chosen.length === 0}>
+              Check answer
+            </button>
+          </div>
+        )}
+
+        {locked && (
+          <div className="feedback">
+            <span className={answeredCorrect ? "ok" : "bad"}>
+              {answeredCorrect
                 ? "✓ Correct!"
+                : isMulti
+                ? "✗ Not quite — correct answers are highlighted."
                 : "✗ Wrong — the correct answer is highlighted."}
             </span>
             <button className="primary" onClick={handleNext}>

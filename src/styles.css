@@ -252,3 +252,17 @@ body {
   .question { font-size: 1.25rem; }
   .section-title { font-size: 1.6rem; }
 }
+
+/* ---------- Multi-select ---------- */
+.multi-hint { color: var(--text-muted); font-weight: 600; font-size: .9rem; margin: -10px 0 18px; }
+.option.picked { border-color: var(--accent); background: var(--glass-bg-hover); }
+.checkbox {
+  flex: 0 0 auto; width: 20px; height: 20px; border-radius: 6px;
+  border: 2px solid var(--glass-border); margin-right: 4px; position: relative;
+  transition: background .15s ease, border-color .15s ease;
+}
+.checkbox.on { background: linear-gradient(135deg, var(--accent), var(--accent-2)); border-color: transparent; }
+.checkbox.on::after {
+  content: "✓"; color: #fff; font-size: .8rem; font-weight: 800;
+  position: absolute; inset: 0; display: grid; place-items: center;
+}
