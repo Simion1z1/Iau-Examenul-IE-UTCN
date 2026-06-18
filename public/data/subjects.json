@@ -1,3 +1,4 @@
 [
-  { "id": "sub1", "name": "SMP" }
+  { "id": "sub1", "name": "SMP" },
+  { "id": "sub2", "name": "IE" }
 ]
