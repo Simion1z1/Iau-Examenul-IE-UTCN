@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "question": "Ce reprezintă o organizație?",
+    "correct_answers": "O entitate socială creată într-un anumit scop",
+    "wrong_answers": [
+      "Un grup informal de persoane",
+      "O unitate fără obiective"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Care este scopul principal al unei organizații nelucrative?",
+    "correct_answers": "Furnizarea unor servicii sociale, educaționale sau guvernamentale",
+    "wrong_answers": [
+      "Maximizarea profitului",
+      "Eliminarea concurenței",
+      "Creșterea capitalului"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Care este una dintre funcțiile specifice ale managementului?",
+    "correct_answers": "Planificarea",
+    "wrong_answers": [
+      "Crearea produselor",
+      "Vânzarea serviciilor"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Ce este eficiența în management?",
+    "correct_answers": "Utilizarea rațională a resurselor",
+    "wrong_answers": [
+      "Numărul angajaților",
+      "Nivelul de satisfacție al clienților"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Ce tip de manager stabilește obiectivele strategice ale organizației?",
+    "correct_answers": "Managerii de vârf",
+    "wrong_answers": [
+      "Managerii de mijloc",
+      "Angajații operaționali"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Ce implică funcția de organizare în management?",
+    "correct_answers": "Stabilirea sarcinilor și relațiilor de autoritate",
+    "wrong_answers": [
+      "Planificarea obiectivelor",
+      "Stabilirea prețurilor"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Rolurile asumate de manageri în coordonarea și interacțiunea cu angajații și în direcționarea activității sunt:",
+    "correct_answers": "roluri interpersonale",
+    "wrong_answers": [
+      "roluri decizionale",
+      "roluri informaționale"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Managerii de mijloc sunt responsabili de coordonarea directă a angajaților operaționali.",
+    "correct_answers": "Fals",
+    "wrong_answers": [
+      "Adevărat"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Care dintre următorii factori face parte din mediul intern al organizației?",
+    "correct_answers": "Cultura organizațională",
+    "wrong_answers": [
+      "Mediul legislativ",
+      "Competitorii"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Care dintre următoarele nu este un tip de manager pe baza nivelului ierarhic pe care se situează?",
+    "correct_answers": "Manager de logistică",
+    "wrong_answers": [
+      "Manager de primă linie",
+      "Manager de mijloc"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "În ce categorie de organizații se încadrează o universitate?",
+    "correct_answers": "Organizație nelucrativă",
+    "wrong_answers": [
+      "Organizație lucrativă"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Ce reprezintă o organizație ca sistem deschis?",
+    "correct_answers": "Interacționează constant cu mediul extern",
+    "wrong_answers": [
+      "Nu utilizează resurse din afară",
+      "Este complet autonomă"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Mediul legislativ influențează activitatea organizațiilor prin legi și reglementări.",
+    "correct_answers": "Adevărat",
+    "wrong_answers": [
+      "Fals"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Rolurile asumate de manageri în coordonarea și interacțiunea cu angajații și în direcționarea activității sunt:",
+    "correct_answers": "roluri interpersonale",
+    "wrong_answers": [
+      "roluri decizionale",
+      "roluri informaționale"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Care este prima fază a ciclului de viață al unei industrii?",
+    "correct_answers": "Nașterea",
+    "wrong_answers": [
+      "Creșterea",
+      "Maturitatea"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Ce înseamnă \"eficacitate\" în management?",
+    "correct_answers": "Gradul în care obiectivele propuse sunt atinse",
+    "wrong_answers": [
+      "Creșterea numărului de angajați",
+      "Îmbunătățirea strategiei de vânzări"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Care dintre următoarele este o componentă a mediului general?",
+    "correct_answers": "Mediul tehnologic",
+    "wrong_answers": [
+      "Clienții",
+      "Distribuitorii",
+      "Concurenții"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Un exemplu de factor al mediului demografic este:",
+    "correct_answers": "Rata natalității",
+    "wrong_answers": [
+      "Nivelul tehnologic",
+      "Politicile fiscale"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Ce înseamnă \"individualism\" în modelul cultural Hofstede?",
+    "correct_answers": "Prioritizarea intereselor personale față de cele colective",
+    "wrong_answers": [
+      "Cooperarea între membri",
+      "O societate bazată pe familie extinsă"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Pentru analiza mediului extern general al unei organizații se va investiga:",
+    "correct_answers": "rata inflației",
+    "wrong_answers": [
+      "cota de piață",
+      "oferta furnizorilor"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Performanța unei organizații depinde de eficiența și eficacitatea sa.",
+    "correct_answers": "Adevărat",
+    "wrong_answers": [
+      "Fals"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Care dintre următoarele este un rol interpersonale al managerului?",
+    "correct_answers": "Lider",
+    "wrong_answers": [
+      "Decident",
+      "Diseminator",
+      "Negociator"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Care dintre următoarele caracterizează un mediu extern incert?",
+    "correct_answers": "Lipsa informațiilor despre schimbările din industrie",
+    "wrong_answers": [
+      "Stabilitatea economică",
+      "Creșterea predictibilității"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Care este scopul funcției de coordonare în management?",
+    "correct_answers": "Motivarea și implicarea angajaților",
+    "wrong_answers": [
+      "Crearea unui plan de marketing",
+      "Reducerea costurilor"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Ce reprezintă o corporație multinațională?",
+    "correct_answers": "O companie cu operațiuni în mai multe țări",
+    "wrong_answers": [
+      "O companie locală",
+      "O organizație non-profit"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Un exemplu de organizație lucrativă este:",
+    "correct_answers": "O companie privată de IT",
+    "wrong_answers": [
+      "Un ONG",
+      "O biserică"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Care dintre următoarele este un factor al mediului politic?",
+    "correct_answers": "Stabilitatea guvernului",
+    "wrong_answers": [
+      "Nivelul inflației",
+      "Cultura organizațională",
+      "Relația cu clienții"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Rezultatul funcției de organizare este cea mai potrivită:",
+    "correct_answers": "structură organizațională",
+    "wrong_answers": [
+      "comunicare",
+      "strategie"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Managerii de primă linie stabilesc strategia generală a organizației.",
+    "correct_answers": "Fals",
+    "wrong_answers": [
+      "Adevărat"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "O organizație cu o cultură slabă este mai puțin stabilă și mai susceptibilă la conflicte interne.",
+    "correct_answers": "Adevărat",
+    "wrong_answers": [
+      "Fals"
+    ]
+  }
+]
