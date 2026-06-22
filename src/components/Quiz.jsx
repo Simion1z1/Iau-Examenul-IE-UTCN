@@ -11,18 +11,15 @@ function shuffle(arr) {
   return a;
 }
 
-// Backward compatible: a question with `correct_answers` (array) is multi-select;
-// otherwise the single `correct_answer` string is used (existing files unchanged).
+// Backward compatible and forgiving: the correct answer(s) may live under either
+// `correct_answers` or `correct_answer`, and the value may be a single string OR a
+// list. A list with 2+ items becomes a multi-select question; anything else is
+// single-select. Empty / null values are dropped.
 function correctsOf(q) {
   if (!q) return [];
-  // Accept a list under either key; otherwise the single correct_answer string.
-  if (Array.isArray(q.correct_answers) && q.correct_answers.length) {
-    return q.correct_answers;
-  }
-  if (Array.isArray(q.correct_answer) && q.correct_answer.length) {
-    return q.correct_answer;
-  }
-  return [q.correct_answer];
+  const raw = q.correct_answers != null ? q.correct_answers : q.correct_answer;
+  const list = Array.isArray(raw) ? raw : [raw];
+  return list.filter((v) => v != null && String(v).trim() !== "");
 }
 
 export default function Quiz({ subject, onBack }) {
