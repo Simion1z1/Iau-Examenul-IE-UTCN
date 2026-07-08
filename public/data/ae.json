@@ -1,0 +1,619 @@
+[
+  {
+    "id": 1,
+    "question": "Prin metoda de control scalar a MCA la U/f=ct se se mentine constant:",
+    "correct_answers": "Fluxul statoric",
+    "wrong_answers": [
+      "Curentul rotoric",
+      "Curentul statoric"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Regimul de acceleratie rezulta din \"ecuatia fundamentala a miscarii in actionari electrice\" atunci cand:",
+    "correct_answers": "Cuplul electromagnetic este mai mare decat cuplul rezistent",
+    "wrong_answers": [
+      "Cuplul electromagnetic este mai mic decat cuplul rezistent",
+      "Cuplul electromagnetic este egal cu cuplul rezistent"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Ce tipuri de convertoare electronice de putere pot fi folosite pentru alimentarea MCA?",
+    "correct_answers": "Invertoare",
+    "wrong_answers": [
+      "Redresoare",
+      "Variatoare de tensiune continua (VTC)"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Campul invartitor al unei MCA alimentata de la un sistem simetric si echilibrat de tensiuni, descrie:",
+    "correct_answers": "Un cerc",
+    "wrong_answers": [
+      "O elipsa",
+      "O dreapta"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Ce tipuri de convertoare electronice de putere pot fi folosite pentru alimentarea MCC?",
+    "correct_answers": "Variatoare de tensiune continua (VTC)",
+    "wrong_answers": [
+      "Convertoare statice de frecventa (CSF)",
+      "Invertoare"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Schema de control vectorial a MI cu orientare dupa fluxul statoric este caracterizata de:",
+    "correct_answers": "Fluxul de orientare statoric este calculat pe baza modelului de tensiune a MI din ecuatia de tensiune statorica",
+    "wrong_answers": [
+      "Nu trebuie calculat fluxul statoric",
+      "Se calculeaza fluxul rotoric, din care apoi prin compensare se obtine fluxul statoric"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Un sistem de actionare cu MCC in cadranele I si II (un troleibuz) se poate face prin alimentarea de la:",
+    "correct_answers": "Un VTC de curent pozitiv si negativ (de 2 cadrane)",
+    "wrong_answers": [
+      "Un redresor comandat (de 2 cadrane)",
+      "Un VTC de 1 cadran in indus si un redresor comandat in excitatie"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Campul invartitor care sta la baza functionarii MCA este creat de:",
+    "correct_answers": "Curentii statorici",
+    "wrong_answers": [
+      "Curentii turbionari",
+      "Curentii din intrefier"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Cum pot obtine la masinile de curent alternativ caracteristici artificiale deasupra caracteristicii naturale (puncte de functionare la viteze mari)?",
+    "correct_answers": "Prin cresterea frecventei de alimentare statorice",
+    "wrong_answers": [
+      "Prin adaugarea de rezistente in circuitul rotoric",
+      "Prin modificarea tensiunii de alimentare statorice"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Ce tip de convertor electronic de putere NU permite circulatia in ambele sensuri a energiei electrice?",
+    "correct_answers": "Redresor necomandat",
+    "wrong_answers": [
+      "Cicloconvertor",
+      "Redresor comandat",
+      "Invertor comandat PWM"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "La principiul de comanda scalara in bucla deschisa a MCA se folosesc traductoare:",
+    "correct_answers": "Nu este nevoie de nici un traductor",
+    "wrong_answers": [
+      "De turatie",
+      "De curent"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Cum se pot obtine marimile de control in schemele de control vectorial al MCA?",
+    "correct_answers": "Prin masurare, prin calculare sau prin estimare (identificare)",
+    "wrong_answers": [
+      "Doar prin masurare",
+      "Nu se pot obtine decat din calcule"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Cine imi delimiteaza domeniul de utilizare (functionare) a MCC?",
+    "correct_answers": "Cuplul maxim, turatia maxima si puterea maxima",
+    "wrong_answers": [
+      "Valoarea rezistentelor din circuitul indusului",
+      "Valoarea fluxului din masina"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Cum se poate obtine caracteristica naturala inversa (rotatia inversa) a masinii de inductie?",
+    "correct_answers": "Prin inversarea (permutarea) a doua faze",
+    "wrong_answers": [
+      "Prin modificarea frecventei de alimentare",
+      "Prin inversarea (permutarea) tuturor celor 3 faze"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Bucla reactiva din schema de actionare cu MCC alimentata de la convertoare electronice controleaza:",
+    "correct_answers": "Fluxul de excitatie",
+    "wrong_answers": [
+      "Factorul de putere al MCC",
+      "Tensiunea din indusul MCC"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Cum variaza cuplul critic al masinii de inductie la variatia tensiunii de alimentare statorice?",
+    "correct_answers": "Proportional cu patratul tensiunii de alimentare statorica",
+    "wrong_answers": [
+      "Creste odata cu scaderea tensiunii de alimentare statorica",
+      "Nu depinde de tensiunea de alimentare statorica"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "La controlul direct de cuplu (DTC) al MCA, fluxul dupa care se controleaza masina electrica este:",
+    "correct_answers": "Fluxul statoric",
+    "wrong_answers": [
+      "Fluxul magnetic (din intrefier)",
+      "Fluxul rotoric"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Care dintre fluxurile de orientare de la controlul vectorial al MCA se calculeaza cel mai usor, dar introduce erori datorita integralei din ecuatia de calcul a fluxului?",
+    "correct_answers": "Fluxul statoric",
+    "wrong_answers": [
+      "Fluxul magnetic (din intrefier)",
+      "Fluxul rotoric"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Schema de control vectorial indirect (cu alunecare) a MI cu orientare dupa fluxul rotoric este caracterizata de:",
+    "correct_answers": "Pozitia fluxului rotoric este obtinuta prin integrarea pulsatiei campului invartitor, care la randul ei este obtinuta prin insumarea pulsatiei (vitezei unghiulare) rotorice cu pulsatia de alunecare",
+    "wrong_answers": [
+      "Fluxul rotoric este calculat pe baza modelului de tensiune a MI doar din ecuatia de tensiune statorica",
+      "Nu trebuie calculat fluxul rotoric"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In schema de control (actionare) cu MCC alimentata de la convertoare electronice:",
+    "correct_answers": "Cele doua bucle de control sunt independente una fata de alta",
+    "wrong_answers": [
+      "O bucla controleaza fluxul de excitatie si cealalta controleaza fluxul magnetic",
+      "O bucla controleaza viteza si celalata controleaza pozitia"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Controlul frecventei in actionari electrice in regim de generator de la surse de viteza variabila (eoliene, microhidrocentrale) se face:",
+    "correct_answers": "Utilizand un convertor electronic de putere intre generator si retea",
+    "wrong_answers": [
+      "Tinand constanta viteza generatorului sincron",
+      "Nu se poate controla frecventa de iesire"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Ce reprezinta isd din schema de control vectorial al unei MCA?",
+    "correct_answers": "Proiectia curentului statoric pe axa fluxului de orientare",
+    "wrong_answers": [
+      "Componenta activa a curentului statoric",
+      "Proiectia curentului statoric pe axa perpendiculara pe fluxul de orientare"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "La o actionare cu masina de curent continuu, legea fortei magnetodinamice (forta Lorenz) este responsabila de care regim de functionare?",
+    "correct_answers": "Regimul de motor",
+    "wrong_answers": [
+      "Regimul de generator",
+      "Nu intervine in functionarea masinii"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Caracteristica naturala a carei masini electrice poate avea la intersectia cu caracteristica cuplului mecanic (rezistent) doua puncte de functionare, unul stabil si unul instabil?",
+    "correct_answers": "Masina de inductie (asincrona)",
+    "wrong_answers": [
+      "Masina de curent continuu",
+      "Masina sincrona"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "La care dintre caracteristicile artificiale ale MCC derivatie se modifica panta caracteristicilor?",
+    "correct_answers": "Cele obtinute prin modificarea fluxului de excitatie (a tensiunii din excitatie)",
+    "wrong_answers": [
+      "Cele obtinute prin modificarea tensiunii din indus",
+      "Nu se modifica"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Ce se intelege prin controlul \"sensorless\" al unui sistem de actionare electrica?",
+    "correct_answers": "Controlul fara traductoare de marimi mecanice (viteza, pozitie)",
+    "wrong_answers": [
+      "Controlul cu traductoare de marimi electrice si mecanice",
+      "Controlul fara traductoare de curent"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Care este avantajul unei MCC compensate din punct de vedere a unui sistem de actionari electrice?",
+    "correct_answers": "Perpendicularitatea dintre fazorul fluxului de excitatie si fazorul curentului din indus",
+    "wrong_answers": [
+      "Functioneaza la factor de putere bun",
+      "Ca are perii colectoare in rotor"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Ce poate modifica convertorul electronic de putere din cadrul \"structurii unui sistem performant de actionare electrica\"?",
+    "correct_answers": "Parametrii energiei electrice",
+    "wrong_answers": [
+      "Energia electrica in energie mecanica",
+      "Tipul de cuplu rezistent"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Ce tipuri de modulatie a semnalelor sunt folosite in convertoarele electronice de putere?",
+    "correct_answers": "Modulatia in amplitudine (PAM) sau modulatia in frecventa (PWM)",
+    "wrong_answers": [
+      "Modulatia cu rezistente",
+      "Modulatia binara"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Cum se poate schimba sensul de rotatie a masinii de curent continuu derivatie?",
+    "correct_answers": "Inversand alimentarea indusului",
+    "wrong_answers": [
+      "Inversand alimentarea excitatiei si a indusului",
+      "Nu se poate schimba"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Cum pot obtine la MCC derivatie turatii mai mari decat cele obtinute pe caracteristica naturala (puncte de functionare pe caracteristici artificiale deasupra caracteristicii naturale)?",
+    "correct_answers": "Prin scaderea fluxului de excitatie (slabire de camp)",
+    "wrong_answers": [
+      "Prin adaugarea de rezistente in circuitul rotoric",
+      "Prin reducerea tensiunii de alimentare a indusului"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Controlul frecventei (la 50 Hz) in actionari electrice in regim de generator cu masini sincrone cu excitatie (la centrale termo sau hidroelectrice) se face:",
+    "correct_answers": "Tinand constanta viteza generatorului sincron",
+    "wrong_answers": [
+      "Nu se poate controla frecventa de iesire",
+      "Utilizand un convertor electronic de putere intre generator si retea"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Ce marimi se pot controla in bucla activa a unei scheme de control vectorial al MCA?",
+    "correct_answers": "Turatia, pozitia, cuplul",
+    "wrong_answers": [
+      "Orice fel de marimi",
+      "Marimi magnetice"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Prin ce marimi se controleaza tensiunea de iesire a redresoarelor care alimenteaza MCC?",
+    "correct_answers": "Prin unghiul de comanda \"alfa\"",
+    "wrong_answers": [
+      "Prin tensiunea generata de la traductorul de viteza",
+      "Prin constanta de timp (factorul de umplere) \"tau\""
+    ]
+  },
+  {
+    "id": 35,
+    "question": "O instalatie de ridicat (macara), poate functiona?",
+    "correct_answers": "Doar in cadranele I si IV",
+    "wrong_answers": [
+      "Doar in regim de motor",
+      "In toate 4 cadranele"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Rotorul masinii de inductie se roteste cu o viteza (pulsatie):",
+    "correct_answers": "Diferita de pulsatia de sincronism",
+    "wrong_answers": [
+      "Poate fi si diferita si egala cu pulsatia de sincronism",
+      "Egala cu pulsatia de sincronism"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Care este cea mai utilizata tehnica de modulatie la convertoarele electronice sursa de tensiune (modulata tensiunea)?",
+    "correct_answers": "Cu modulatie in frecventa (PWM)",
+    "wrong_answers": [
+      "Cu modulatie aleatorie",
+      "Cu modulatie in amplitudine (PAM)"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Ce fel de redresoare comandate exista?",
+    "correct_answers": "De tensiune pozitiva si negativa",
+    "wrong_answers": [
+      "Nu exista decat de tensiune pozitiva",
+      "De curent pozitiv si negativ"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Pe ce se bazeaza controlul vectorial al MCA?",
+    "correct_answers": "Pe determinarea componentei active si reactive a curentului prin proiectia pe axele de coordonate legate de fluxul de orientare",
+    "wrong_answers": [
+      "Pe diferenta dintre masina de inductie si masina sincrona",
+      "Pe controlul curentului din rotor"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Controlul in cascada pe bucla activa din schema de actionare cu MCC alimentata de la convertoare electronice:",
+    "correct_answers": "Imbunatateste performantele dinamice ale controlului",
+    "wrong_answers": [
+      "Micsoreaza fluxul din masina",
+      "Asigura un control mai lent a vitezei"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Care dintre convertoarele care alimenteaza MCC au functia de comanda liniara (proportionala)?",
+    "correct_answers": "Variatoarele de tensiune continua (VTC)",
+    "wrong_answers": [
+      "Atat redresoarele cat si variatoarele de tensiune continua (VTC)",
+      "Redresoarele"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Care dintre elementele (blocurile) componente ale \"structurii unui sistem performant de actionare electrica\" face conversia energiei electrice in energie mecanica sau invers?",
+    "correct_answers": "Masina electrica",
+    "wrong_answers": [
+      "Convertorul electronic de putere",
+      "Niciunul",
+      "Toate",
+      "Traductoarele"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Care sunt avantajele controlului vectorial? (var. A)",
+    "correct_answers": "Eficienta energetica (randament) ridicat",
+    "wrong_answers": [
+      "Controlul imprecis al marimilor mecanice",
+      "Complexitatea sistemului de reglare"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Relatia functiei de comanda U/f=ct in cazul controlului scalar al MCA: (var. A)",
+    "correct_answers": "Trebuie corectata la pornire si la viteze/frecvente foarte mici",
+    "wrong_answers": [
+      "Este valabila la orice valori de tensiune si frecventa",
+      "Se aplica si la tensiuni si frecvente mai mari decat cele nominale"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Unde se realizeaza partea de control (automatica) a \"structurii unui sistem performant de actionare electrica\"?",
+    "correct_answers": "Convertorul electronic de putere",
+    "wrong_answers": [
+      "Masina electrica",
+      "Sistemul de calcul dedicat (microcontroller, DSP, etc.)"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Care este relatia matematica care defineste caracteristica unei masini electrice?",
+    "correct_answers": "Viteza unghiulara ca functie de cuplul electromagnetic",
+    "wrong_answers": [
+      "Viteza unghiulara ca functie de tensiune",
+      "Cuplul electromagnetic ca functie de curent"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Cum se modifica caracteristica MCC prin scaderea fluxului de excitatie (slabire de flux)?",
+    "correct_answers": "Scade panta caracteristicii",
+    "wrong_answers": [
+      "Scade viteza de mers in gol ideala (intersectia cu axa de cuplu zero)",
+      "Creste panta caracteristicii"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Ce marimi se pot controla in bucla reactiva a unei scheme de control vectorial al MCA?",
+    "correct_answers": "Fluxul",
+    "wrong_answers": [
+      "Orice fel de marimi",
+      "Marimi mecanice"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "O surubelnita electrica, care poate insuruba si desuruba, poate functiona?",
+    "correct_answers": "Doar in cadranele I si III",
+    "wrong_answers": [
+      "In toate 4 cadranele",
+      "Doar in cadranul I"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Ce reprezinta isqλ din schema de control vectorial al unei MCA?",
+    "correct_answers": "Componenta activa a curentului statoric",
+    "wrong_answers": [
+      "Proiectia curentului statoric pe axa fluxului de orientare",
+      "Componenta reactiva a curentului statoric"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Campul invartitor al unei MCA alimentata de la un sistem de tensiuni nesimetric sau dezechilibrat (de exemplu retea bifazata) descrie:",
+    "correct_answers": "O elipsa",
+    "wrong_answers": [
+      "Un cerc",
+      "Un triunghi"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Cum pot obtine o actionare in 4 cadrane cu MCC alimentata de la redresoare?",
+    "correct_answers": "Cu 2 redresoare comandate in antiparalel",
+    "wrong_answers": [
+      "Cu un redresor care functioneaza in toate 4 cadranele",
+      "Nu se poate obtine"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Care este elementul (blocul) din partea de forta (circulatie de energii/puteri) a \"structurii unui sistem performant de actionare electrica\" care se poate opune circulatiei in ambele sensuri a energiei?",
+    "correct_answers": "Convertorul electronic de putere",
+    "wrong_answers": [
+      "Toate",
+      "Niciunul",
+      "Traductoarele",
+      "Masina electrica"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Cum se modifica caracteristica masinii de inductie prin modificarea rezistentei totale a circuitului rotoric?",
+    "correct_answers": "Isi modifica atat cuplul critic cat si alunecarea critica",
+    "wrong_answers": [
+      "Isi modifica cuplul critic",
+      "Isi modifica alunecarea critica"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Un sistem de actionare cu MCC in toate 4 cadranele (un automobil electric) se poate face prin alimentarea de la:",
+    "correct_answers": "Un VTC de curent pozitiv si negativ (de 2 cadrane) in indus si un redresor comandat (de 2 cadrane) in excitatie",
+    "wrong_answers": [
+      "Un redresor comandat (de 2 cadrane)",
+      "Un VTC de curent pozitiv si negativ (de 2 cadrane)"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Care dintre fluxurile de orientare de la controlul vectorial al MCA realizeaza controlul cel mai precis, dar necesita cunoasterea pulsatiei (vitezei) rotorice, deoarece aceasta intervine in ecuatia de calcul a acelui flux?",
+    "correct_answers": "Fluxul rotoric",
+    "wrong_answers": [
+      "Fluxul magnetic (din intrefier)",
+      "Fluxul statoric"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Cum se poate schimba sensul de rotatie a masinii de curent continuu derivatie? (prin excitatie)",
+    "correct_answers": "Inversand alimentarea excitatiei",
+    "wrong_answers": [
+      "Inversand alimentarea excitatiei si a indusului",
+      "Nu se poate schimba"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Campul invartitor care sta la baza functionarii MCA este produs in:",
+    "correct_answers": "Infasurarile (fazele) statorice alimentate de un sistem trifazat de tensiuni",
+    "wrong_answers": [
+      "Infasurarile rotorice alimentate in tensiune continua",
+      "Infasurarile (fazele) rotorice alimentate de un sistem trifazat de tensiuni"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Care este cea mai utilizata tehnica de modulatie la convertoarele electronice sursa de curent (modulat curentul)?",
+    "correct_answers": "Cu modulatie in amplitudine (PAM)",
+    "wrong_answers": [
+      "Cu modulatie in frecventa (PWM)",
+      "Cu modulatie aleatorie"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Regimul de deceleratie (franare) rezulta din \"ecuatia fundamentala a miscarii in actionari electrice\" atunci cand:",
+    "correct_answers": "Cuplul electromagnetic este mai mic decat cuplul rezistent",
+    "wrong_answers": [
+      "Cuplul electromagnetic este mai mare decat cuplul rezistent",
+      "Cuplul electromagnetic este egal cu cuplul rezistent"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Prin ce marimi se controleaza tensiunea de iesire a variatoarelor de tensiune continua care alimenteaza MCC?",
+    "correct_answers": "Prin constanta de timp (factorul de umplere) \"tau\"",
+    "wrong_answers": [
+      "Prin tensiunea generata de la traductorul de viteza",
+      "Prin unghiul de comanda \"alfa\""
+    ]
+  },
+  {
+    "id": 62,
+    "question": "La o actionare cu masina de curent continuu, legea inductiei electromagnetice este responsabila de care regim de functionare?",
+    "correct_answers": "Regimul de generator",
+    "wrong_answers": [
+      "Regimul de motor",
+      "Nu intervine in functionarea masinii"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Care sunt avantajele controlului vectorial? (var. B)",
+    "correct_answers": "Performante dinamice ridicate",
+    "wrong_answers": [
+      "Complexitatea sistemului de reglare",
+      "Eficienta energetica scazuta (randament mic)"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Schema de control vectorial a MI cu orientare dupa fluxul statoric este caracterizata de: (var. B)",
+    "correct_answers": "Relatia de integrare din formula de calcul a fluxului statoric poate introduce erori de calcul, mai ales la turatii (frecvente) mici",
+    "wrong_answers": [
+      "Se calculeaza fluxul rotoric, din care apoi prin compensare se obtine fluxul statoric",
+      "Nu trebuie calculat fluxul statoric"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "La controlul direct de cuplu (DTC) al MCA, pozitia vectorului (fazorului) de flux:",
+    "correct_answers": "Trebuie determinat doar in care sextant al hexagonului fazorului de tensiune al convertorului se afla",
+    "wrong_answers": [
+      "Trebuie determinata foarte precis",
+      "Nu trebuie determinata pozitia"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Bucla activa din schema de actionare cu MCC alimentata de la convertoare electronice controleaza:",
+    "correct_answers": "Tensiunea din indusul MCC",
+    "wrong_answers": [
+      "Fluxul de excitatie",
+      "Tensiunea din statorul MCC"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Pe ce se bazeaza controlul vectorial al MCA? (var. B)",
+    "correct_answers": "Pe principiul orientarii dupa camp",
+    "wrong_answers": [
+      "Pe diferenta dintre masina de inductie si masina sincrona",
+      "Pe principiul U/f=constant"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Relatia functiei de comanda U/f=ct in cazul controlului scalar al MCA: (var. B)",
+    "correct_answers": "Nu se poate aplica la tensiuni si frecvente mai mari decat cele nominale Nume / Prenume / Grupa / Semigrupa: _____________________________________________ Observatii: _____________________________________________ _____________________________________________",
+    "wrong_answers": [
+      "Este valabila la orice valori de tensiune si frecventa",
+      "Este valabila doar la tensiune si frecventa nominala"
+    ]
+  }
+]
