@@ -610,7 +610,7 @@
   {
     "id": 68,
     "question": "Relatia functiei de comanda U/f=ct in cazul controlului scalar al MCA: (var. B)",
-    "correct_answers": "Nu se poate aplica la tensiuni si frecvente mai mari decat cele nominale Nume / Prenume / Grupa / Semigrupa: _____________________________________________ Observatii: _____________________________________________ _____________________________________________",
+    "correct_answers": "Nu se poate aplica la tensiuni si frecvente mai mari decat cele nominale",
     "wrong_answers": [
       "Este valabila la orice valori de tensiune si frecventa",
       "Este valabila doar la tensiune si frecventa nominala"
