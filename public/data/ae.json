@@ -592,9 +592,9 @@
   {
     "id": 66,
     "question": "Bucla activa din schema de actionare cu MCC alimentata de la convertoare electronice controleaza:",
-    "correct_answers": "Tensiunea din indusul MCC",
+    "correct_answers": "Fluxul de excitatie",
     "wrong_answers": [
-      "Fluxul de excitatie",
+      "Tensiunea din indusul MCC",
       "Tensiunea din statorul MCC"
     ]
   },
